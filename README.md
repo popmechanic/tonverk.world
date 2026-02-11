@@ -1,10 +1,12 @@
+<img src="favicon_io/android-chrome-512x512.png" alt="Tonverk logo" width="128" align="left" style="margin-right: 16px; margin-bottom: 8px;">
+
 # TONVERK.WORLD
 
 A searchable shortcuts reference for the Elektron Tonverk.
 
-I built this because I kept forgetting key combinations mid-session. The manual is thorough but not exactly something you want to flip through while a sequence is running. This puts every shortcut in one place, organized by section, with search so you can find what you need fast.
+I built this because I kept forgetting key combinations mid-session. The manual is thorough but not exactly something you want to flip through while a sequence is running. This puts every shortcut in one place, organized by section, with search so you can find what you need fast. Covers clipboard operations, sequencer controls, track/pattern management, performance features, sound design shortcuts, sampling, and system functions. Based on OS 1.2.1.
 
-Covers clipboard operations, sequencer controls, track/pattern management, performance features, sound design shortcuts, sampling, and system functions. Based on OS 1.2.1.
+<br clear="left">
 
 ## Save it for offline use
 
