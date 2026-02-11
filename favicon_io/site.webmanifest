@@ -1,1 +1,21 @@
-{"name":"TONVERK.WORLD","short_name":"Tonverk","icons":[{"src":"android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#101010","background_color":"#101010","display":"standalone"}
+{
+  "name": "TONVERK.WORLD",
+  "short_name": "Tonverk",
+  "start_url": "/",
+  "description": "Quick reference for Tonverk synthesizer shortcuts and key combinations",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#101010",
+  "background_color": "#101010",
+  "display": "standalone"
+}
