@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tonverk Shortcuts Reference</title>
+    <title>TONVERK.WORLD</title>
     <script src="https://cdn.tailwindcss.com/3.4.17"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
         @font-face {
-            font-family: 'Elektron Pixel';
-            src: url('Elektron_Pixel_Font.woff') format('woff');
+            font-family: 'Elektron Pixel Font';
+            src: url('Elektron_Pixel_Font.woff') format('woff'),
+                 url('data:application/font-woff;base64,d09GRgABAAAAAA28AA0AAAAAJJwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAANoAAAABkAAAAchd+50UdERUYAAA2IAAAAFwAAABgAJQAAT1MvMgAAAZgAAABFAAAAYGM2+FxjbWFwAAACOAAAALkAAAFWcdsETGdhc3AAAA2AAAAACAAAAAj//wADZ2x5ZgAAA8QAAATaAAAU5BMItZVoZWFkAAABMAAAAC8AAAA2Datj3WhoZWEAAAFgAAAAHgAAACQGgwCIaG10eAAAAeAAAABWAAABlhYkMQBsb2NhAAAC9AAAAM4AAADOCu0Fym1heHAAAAGAAAAAGAAAACAAbQAibmFtZQAACKAAAAQwAAAJBmqlYGhwb3N0AAAM0AAAAK8AAAD8I4xSO3icY2BkYGAAYp/1nh3x/DZfGbhZGEDg6jH+Dwj6fwMzA3MDkMvBwAQSBQAwsQrAAHicY2BkYGBu+N8AJCcyMPwVZGZgAIqggFQAYtUEDwAAeJxjYGRgYEhjUGBgYwABJgY0AAAOzQCQeJxjYGL6zDiBgZWBhYmBiQEIHCA0EBsznAEJsDBAQAMDAyMDEnALDglicGBQUJBlBksyN4BIiBqmBiYQW4GBEQBxNwfoAAAAeJytkMENQCEIQ2udgI1dwY0FA4r/oJd/eCHUQokQAErRUq12NCrVoTN1cUKX/Tb93lu9QSk49uTMx+y6L7TLzNeXe4aWfHxk/5rfz13xt+ZDGyLuSiMAAHicY2BgYGaAYBkGRgYQCADyGMF8FgYTIM0GpBkZmBjqFGT//wfyFRQk/v///xjIAqliAeIkhmSwzhSGVKAgGwPUICDNBCSYGFABUJKZhZWNnYOTi5uHl49fQFBIWERUTFxCUkpaRlZOXkFRSVlFVU1dQ1NLW0dXT9/A0MjYxNTM3MLSytrG1s7ewdHJ2cXVzd3D08vbx9fPPyAwKDgkNCw8IjIqOiY2Lj4hkYH6ICU1KZl41QCm4h2HAAAAAAAAKgAqACoAKgA+AFIAfgCqANAA/AEKASQBPAFeAXIBhgGUAaABwAHWAeoCAgIaAjACSAJiAn4CmgK0AsgC4AMCAxYDOANYA34DnAPAA+YEAAQYBC4EUARoBHYEigSsBLwE2ATyBRQFMgVQBXQFmAWqBcQF4gX8BiIGQgZgBnIGlgaoBsAGzAbgBv4HIgdIB2IHegeQB7IHygfYB+wIDggeCDoIVAh2CJQIsgjWCPoJDAkmCUQJXgmECaAJvgncCeoKCAokCjQKRApaCnIAAHic7VhdbttIDCZHVY0gKIJZY1oERbHQOr7ACoKfcqReIH6ZE+xesxfIU2F5+TuakVXsQ19tZ9KgJjkfyY8/MvRAr47e9LODR/gDPgMcp0M6Leev3ceEcYiYz+/v5/P72/jyMv/s4Pvb2z/nM/38+/by8vflRwcXtgYBMmR0m3CaxtTFMWZ9IWCes8kF+uVye5IZTS4AwlWO2zOMfwIgoeqmwzTKGZOcdJBzoM9IvH0hnevqP9Xtxe4OvrLlMfHppsHsD2kw2yHni6AXdGKO/+Yzr+z2bDcsMX2CPcd0TEMcn/2OL+Qpqq5jU5ftDvP9Y2XrAT5BhATPFKtp/IbsfWRbR4sC/5vVoNi8gtrivxAakAgSY7ErkfeYe1wwF/yC/ejYYcFL6LGOZa3DWZ+i4lt8LCo9Q6Ps5zpG+8oP96n2p/aBbKDGJoBiNDZQtlZyRIgr3YoaQ/hCUq9IuY2VyavGhDFhlphQ7kVJ/UPltNgQ3yyQfcMh8+MkN7Qnb72M28HjBlxmOzrCME4IB4w+v2THIFx4kDsi+yCWlTHEJljk2CbnIQ7E5iEykyX8ASQFnIW5cKGSnwZ/RxJi4rCO4r0ssRB5wnEktKMcNmw1oXosfWtbkIjtgsXRQBuPR67IIe1Mw2IyW1ZIynS6JoafGJNy9RX5Pi3RAKW+LN0rPbuNT2cZQM+C17kmYgNjp54pRvUsWGdA1UFJpvEdtMuMCZ3WzjOro1IXhUvd1HDI5X/Za/w4/3ApozUJQ6kj69cahVKsftnmXTXXjxs9aMX3D2ZjqXtB21nGjny3qM3eBqusgelbvWk3LL1Qq0F7zpAc9wxYFXnTtELFzSeuFOrQXFVxeFYLrHfVVimGCEmo81S4s68yqmyVt5TNbNXAp2aSetSvOGj5GySeQ/T+zlEhxVka+lwcwuXvjdoh7Z7RREHiOEpP4d83vaJg10pj1LmAXdd+kY9FWmWlvCzXuZpd5tlBamWUKKO23RmqLFU5WuHTTkMZip4d+lB7jQ4vrHYPkc+lfTrPO2byg+Zb+VIqit1oc6sMtXvZU5ROp5nwcU20UL6jj+0Kd2+4k3S5YD06NDy2G4Z0iPyWXUN7LgMKysJ5s2d5TApjhRGiJoei+OGGY5KHY6WJ0uZrcmkONmpF8HIU0LjVsMtjcFXUed2f5XbeN5JsL0utysXGzSyEEOytv7F0i/b2uspK06ghbNfZyepMoqHzIskYzRqN2/ZVzeAdZ403xANPGJRcMY6NHDXRLpEu6V1z7kEiTHh63ofTftkUnaVKv2qPNi6J5sn26IrbqqLRket+0ctNE3XfK9t46eW+lJcNVeje+vtkE0Rzyz1ZZ301fp0imudKn+vSO7HMIJ3g3uhsipfoXb3es+bjJBVE88f3g3mZW+sdrZ6RfoK7uj282rts/7KcoC1HXfNM89jutBbL8oBifOItWHbOcZK+a3shb6JlLzQLun2H0vLvM+w+w+4z7D7D7jPsN2fYihuMt7OnYNFHb6Isbenlivyd2dU1taw1mvTboYnrKNmXS65VHhb/p0fc2D0xT+35ymZW+W6ofSTmOuNvZeo6qydY9Y1MXuaY9mCbV71EL4mcPjtbL1k+R0FhX7fozUERy+ePbmF0O8WUmFvJqrVhsVkZ5vMfIJFbPAAAeJyVVE1vW0UUvc9NnMakXRCpQi1Us6pAwu85ifqhKI2Uurhk00Z1VAmJzfh5bE/9vjLz7NgVbNkhsWaB2CDxB1jwIwAJtqzZ8Cc4cz2OnTSVQl7yct7cufeeuXPuJaK7QUYBzX7u0COPA9qkrzyu0Br96PE1ukv/eLxCd4LHHq/Se8GJx1XaDH7yeI32KjseX6dblR88XqeNyh8e1+i3lYnHG9Rc/d3jG/RxtevxTQqr/3q8SZ+sZWASrKzj6wGzcjige3TscQUe33l8jfboZ49X6EGw6vEq3Qq+8LhK94KvPV6jSfCrx9fp00rh8Tp9UPnF41rwfeVvjzfom9WWxzfoqPq+xzfpy+q3Hm/Sy7Xb1KScCpqSIU19GlBJgixJGuM7w4qkEWw5/iQs29TA84iomRdTo/uDUlg51llfjkxupNhuNGD8jBJSNEQs55nB7wjRJlhLgFu8VmJbooalyTNxpCcqEa08w+JL7OojZ4J8Bp+qP0okwNyrzVFHFDPTK2ZyodulGcWluDTp1cKIi+QuiSXOCL/CXoNSah9xi0KUjl4pYzVctsLG23nrS3nrbxeqznnqM86XF0Qjo+CrKvnKuoiVMtsh1nLq8XnadLh0rjau3YlAYNV9O94ZfErPXXIVniFOhz4/V0xthRSlkV2VSjMUeU+02odch/YgL8RhViqTyRLnlYl4lnbg7RRWItkuRXh6noJdOkSId45kETaXZbEbRT0EtJwxjPMU6+8SKC2LkcSHV7tY8RHwKdxd6ToIp2EteU3j/+BcqRY8a/QUcSz3TcZFE1xuC6vrpuKsgLuw7OF7n55wFoV9wvOZM1RLHN01zCuSwjITX+usViGiRRyvhmcW+Rg8Z5c/ez+nF1gTzF/5q+/BFvvrnFc+BL7o+xp5Led0QjLwj/m9kISr09Tbe3hnZ+Ka5dNn1RhzTnWBNf15Se/8JU6lFZ2RTkpxqsuBWCit9lRZ3c+UEV1lY6MLp6ldsVfsP5FWdQXiuICKIx5mTiypQje6CDbci4r9Wg2bjwdQLH6fvzgW5UBBsD0dQ5pOYKGYW1+PbAldGxUbxeIVnSm+ezJzCoefdjTGOlY+9P9T9WXWWVUtrJab8RToIcbFFt3HzI1Yr+cHRbE0KOYR39Evi0+cxUZ2kJ9GDxtb97cjNR8sBQ+WHg+W5tJdj1k7TWaeeo6CDvi0TuOuWxaacINEsrfbk2Dd6ZqaXMaxEs08TcFAHJSl0Z0Rl7Y9kEaJg0QP1cUyxheIxOdohNzzfexLvMQybi1XRCfOOk+JiHZ47i6GSezZxDMyYW76UYK7zKyyUWdatzLaCRuRG7Dz83e4xwWd4LQSqYZ+9Ah6A3sB2lMe9a5zcj87Uu4PN1UmHMH1PLVcFTq6L05GMh5iUok3qhhMDTSXQ/TpFB0wER3Vpf8A59PmXnicbc1HOwIAAIDhtyJ7JpvsFVL23jMkM5tLHBxc/S/j7/E8Xb2X7/gJKsib9J88gWAgJKRIsbASpcqUq1CpSrUaterUi2gQ1ahJsxat2rTr0CmmS7cevfr0GzBoyLARcaPGjEuYkJT6u0+ZNmPWnHkLFi1ZtmLVmnUbNm3ZtmPXnn0H0g4dOZZxIuvUmXMXLl3JuXbj1p17Dx49efbtx6ev8Mvbx/trspDUL5NtGyQAAAAAAf//AAJ4nGNgZGBg4AFiASBmAmIWCA0AAjsAJgB4nGNgYGBkAIJbwTM/gOirx/jhNABUUAfsAAAA') format('woff');
             font-weight: normal;
             font-style: normal;
             font-display: swap;
@@ -31,26 +36,43 @@
         html { scroll-behavior: smooth; }
 
         kbd {
-            font-family: 'Elektron Pixel', 'Inter', monospace;
-            font-size: 0.85rem;
-            line-height: 1.4;
+            font-family: 'Inter', sans-serif !important;
+            font-weight: 600;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            line-height: 1.2;
             background: #1e1e1e;
             border: 1px solid #3a3a3a;
             border-radius: 4px;
-            padding: 2px 7px;
+            padding: 4px 10px 5px;
+            margin: 2px 0;
             color: #fff;
             white-space: nowrap;
             display: inline-block;
             box-shadow: 0 1px 2px rgba(0,0,0,0.4);
         }
 
+        samp {
+            font-family: 'Elektron Pixel Font', monospace !important;
+            font-style: normal;
+            font-size: 1.1em;
+            color: #fff;
+            vertical-align: baseline;
+            position: relative;
+            top: 1px;
+        }
+
         .shortcut-row {
             display: grid;
             grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
             gap: 1rem;
-            padding: 0.6rem 0;
+            padding: 0.75rem 0;
             border-bottom: 1px solid #1e1e1e;
             align-items: baseline;
+        }
+
+        .shortcut-row > div:last-child {
+            font-size: 16px !important;
         }
         .shortcut-row:last-child { border-bottom: none; }
 
@@ -86,7 +108,7 @@
 
     <!-- Sticky Header -->
     <header class="w-full px-6 py-4 flex justify-between items-center sticky top-0 z-50 bg-[#101010]/95 backdrop-blur-sm border-b border-white/5">
-        <a href="#top" class="text-sm font-semibold tracking-widest uppercase text-white">Tonverk</a>
+        <a href="#top" class="text-sm font-semibold tracking-widest uppercase text-white">TONVERK.WORLD</a>
 
         <!-- Desktop Nav -->
         <nav class="hidden lg:flex items-center gap-6" id="desktop-nav">
@@ -115,7 +137,7 @@
     <!-- Mobile Menu Overlay -->
     <div id="mobile-menu" class="mobile-menu fixed inset-0 z-[60] bg-[#101010] flex flex-col">
         <div class="flex justify-between items-center px-6 py-4 border-b border-white/5">
-            <span class="text-sm font-semibold tracking-widest uppercase text-white">Tonverk</span>
+            <span class="text-sm font-semibold tracking-widest uppercase text-white">TONVERK.WORLD</span>
             <button id="menu-close" class="text-white p-1" aria-label="Close menu">
                 <i class="ph ph-x text-2xl"></i>
             </button>
@@ -174,7 +196,7 @@
 
                         <!-- Copy/Paste/Clear: Track Sequence -->
                         <div class="shortcut-category" data-category="copy-paste-clear">
-                            <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Track Sequence &mdash; in Grid Recording mode</h3>
+                            <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Track Sequence &mdash; in <samp>Grid Recording</samp> mode</h3>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>RECORD</kbd></div><div class="text-[#B8B8B8] text-sm">Copy the active track's sequence</div></div>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>STOP</kbd></div><div class="text-[#B8B8B8] text-sm">Paste the copied track's sequence to the active track</div></div>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Clear the active track's sequence</div></div>
@@ -182,7 +204,7 @@
 
                         <!-- Copy/Paste/Clear: Trig -->
                         <div class="shortcut-category" data-category="copy-paste-clear">
-                            <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Trig &mdash; in Grid Recording and Live Recording mode</h3>
+                            <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Trig &mdash; in <samp>Grid Recording</samp> and <samp>Live Recording</samp> mode</h3>
                             <div class="shortcut-row"><div><kbd>TRIG</kbd> + <kbd>RECORD</kbd></div><div class="text-[#B8B8B8] text-sm">Copy the trig with its parameter locks</div></div>
                             <div class="shortcut-row"><div><kbd>TRIG</kbd> + <kbd>STOP</kbd></div><div class="text-[#B8B8B8] text-sm">Paste the copied trig</div></div>
                             <div class="shortcut-row"><div><kbd>TRIG</kbd> + <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Clear all parameter locks on the trig</div></div>
@@ -206,7 +228,7 @@
 
                         <!-- Copy/Paste/Clear: Sequencer Page -->
                         <div class="shortcut-category" data-category="copy-paste-clear">
-                            <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Sequencer Page &mdash; in Grid Recording mode</h3>
+                            <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Sequencer Page &mdash; in <samp>Grid Recording</samp> mode</h3>
                             <div class="shortcut-row"><div><kbd>PAGE</kbd> + <kbd>RECORD</kbd></div><div class="text-[#B8B8B8] text-sm">Copy the active page</div></div>
                             <div class="shortcut-row"><div><kbd>PAGE</kbd> + <kbd>STOP</kbd></div><div class="text-[#B8B8B8] text-sm">Paste the copied page to the active page</div></div>
                             <div class="shortcut-row"><div><kbd>PAGE</kbd> + <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Clear the active page</div></div>
@@ -229,7 +251,7 @@
 
                         <!-- Copy/Paste/Clear: Multiple Trigs -->
                         <div class="shortcut-category" data-category="copy-paste-clear">
-                            <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Multiple Trigs &mdash; in Grid Recording mode</h3>
+                            <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Multiple Trigs &mdash; in <samp>Grid Recording</samp> mode</h3>
                             <div class="shortcut-row"><div>Hold trigs + <kbd>RECORD</kbd></div><div class="text-[#B8B8B8] text-sm">Copy multiple trigs</div></div>
                             <div class="shortcut-row"><div>Hold destination <kbd>TRIG</kbd> + <kbd>STOP</kbd></div><div class="text-[#B8B8B8] text-sm">Paste the copied sequence of trigs</div></div>
                             <div class="shortcut-row"><div>Hold trigs + <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Clear trig locks on selected trigs</div></div>
@@ -268,25 +290,25 @@
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Sequencer Settings</h3>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TEMPO</kbd></div><div class="text-[#B8B8B8] text-sm">Tap tempo</div></div>
                             <div class="shortcut-row"><div><kbd>LEFT</kbd> / <kbd>RIGHT</kbd> (hold <kbd>ARROW</kbd>)</div><div class="text-[#B8B8B8] text-sm">Nudge tempo up/down by 10% temporarily</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>LEFT</kbd> / <kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Move all trigs on the track a whole step left or right (in Grid Recording)</div></div>
-                            <div class="shortcut-row"><div><kbd>TRIG</kbd> (hold) + <kbd>LEFT</kbd> / <kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Micro Timing menu and set micro timing for that trig (in Grid Recording)</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>LEFT</kbd> / <kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Move all trigs on the track a whole step left or right (in <samp>Grid Recording</samp>)</div></div>
+                            <div class="shortcut-row"><div><kbd>TRIG</kbd> (hold) + <kbd>LEFT</kbd> / <kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Micro Timing</samp> menu and set micro timing for that trig (in <samp>Grid Recording</samp>)</div></div>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>KEYBOARD F#1</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle the metronome on/off</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>KEYBOARD G#</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Quantize menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>KEYBOARD A#1</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Scale menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>KEYBOARD G#</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Quantize</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>KEYBOARD A#1</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Scale</samp> menu</div></div>
                             <div class="shortcut-row"><div>Hold <kbd>FUNC</kbd> + turn <em>DATA ENTRY</em> knob E</div><div class="text-[#B8B8B8] text-sm">Change pattern length in even steps of 16</div></div>
                         </div>
 
                         <!-- Sequencer Recording -->
                         <div class="shortcut-category" data-category="sequencer-recording">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Sequencer Recording</h3>
-                            <div class="shortcut-row"><div><kbd>RECORD</kbd></div><div class="text-[#B8B8B8] text-sm">Activate/deactivate Grid Recording mode</div></div>
-                            <div class="shortcut-row"><div><kbd>RECORD</kbd> + <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Start Live Recording mode</div></div>
-                            <div class="shortcut-row"><div><kbd>RECORD</kbd> + double-press <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Activate/deactivate Quantize Live Recording</div></div>
-                            <div class="shortcut-row"><div><kbd>STEP EDIT</kbd></div><div class="text-[#B8B8B8] text-sm">Enter Step Edit mode (in normal playback)</div></div>
-                            <div class="shortcut-row"><div>Hold <kbd>PAGE</kbd> + <kbd>LEFT</kbd> / <kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Change sequencer page (in Grid Recording)</div></div>
-                            <div class="shortcut-row"><div>Hold <kbd>PAGE</kbd> + <kbd>TRIG</kbd></div><div class="text-[#B8B8B8] text-sm">Jump to that page (in Grid Recording)</div></div>
+                            <div class="shortcut-row"><div><kbd>RECORD</kbd></div><div class="text-[#B8B8B8] text-sm">Activate/deactivate <samp>Grid Recording</samp> mode</div></div>
+                            <div class="shortcut-row"><div><kbd>RECORD</kbd> + <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Start <samp>Live Recording</samp> mode</div></div>
+                            <div class="shortcut-row"><div><kbd>RECORD</kbd> + double-press <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Activate/deactivate <samp>Quantize Live Recording</samp></div></div>
+                            <div class="shortcut-row"><div><kbd>STEP EDIT</kbd></div><div class="text-[#B8B8B8] text-sm">Enter <samp>Step Edit</samp> mode (in normal playback)</div></div>
+                            <div class="shortcut-row"><div>Hold <kbd>PAGE</kbd> + <kbd>LEFT</kbd> / <kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Change sequencer page (in <samp>Grid Recording</samp>)</div></div>
+                            <div class="shortcut-row"><div>Hold <kbd>PAGE</kbd> + <kbd>TRIG</kbd></div><div class="text-[#B8B8B8] text-sm">Jump to that page (in <samp>Grid Recording</samp>)</div></div>
                             <div class="shortcut-row"><div><kbd>PAGE</kbd></div><div class="text-[#B8B8B8] text-sm">Select the active pattern page (if more than 16 steps)</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TRIG</kbd></div><div class="text-[#B8B8B8] text-sm">Add a lock trig (in Grid Recording)</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TRIG</kbd></div><div class="text-[#B8B8B8] text-sm">Add a lock trig (in <samp>Grid Recording</samp>)</div></div>
                         </div>
 
                         <!-- Playback Control -->
@@ -301,8 +323,8 @@
                         <div class="shortcut-category" data-category="fill-mode">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Fill Mode</h3>
                             <div class="shortcut-row"><div><kbd>FILL</kbd> (Momentary)</div><div class="text-[#B8B8B8] text-sm">Activate Fill for as long as you hold the key</div></div>
-                            <div class="shortcut-row"><div><kbd>FILL</kbd> (Latching)</div><div class="text-[#B8B8B8] text-sm">Toggle Fill mode on/off</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>FILL</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Fill Edit menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FILL</kbd> (Latching)</div><div class="text-[#B8B8B8] text-sm">Toggle <samp>Fill</samp> mode on/off</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>FILL</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Fill Edit</samp> menu</div></div>
                         </div>
 
                     </div>
@@ -345,18 +367,18 @@
                         <!-- Mutes -->
                         <div class="shortcut-category" data-category="mutes">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Mutes</h3>
-                            <div class="shortcut-row"><div><kbd>MUTE</kbd></div><div class="text-[#B8B8B8] text-sm">Enter Mute mode</div></div>
+                            <div class="shortcut-row"><div><kbd>MUTE</kbd></div><div class="text-[#B8B8B8] text-sm">Enter <samp>Mute</samp> mode</div></div>
                             <div class="shortcut-row"><div><kbd>MUTE</kbd> + <kbd>TRIG</kbd> / <kbd>SUBTRACKS</kbd></div><div class="text-[#B8B8B8] text-sm">Quick mute/unmute one or several tracks</div></div>
-                            <div class="shortcut-row"><div><kbd>MUTE</kbd> + <kbd>UP</kbd></div><div class="text-[#B8B8B8] text-sm">Enter Global Mute mode</div></div>
-                            <div class="shortcut-row"><div><kbd>MUTE</kbd> + <kbd>DOWN</kbd></div><div class="text-[#B8B8B8] text-sm">Enter Pattern Mute mode</div></div>
-                            <div class="shortcut-row"><div><kbd>MUTE</kbd> + <kbd>UP</kbd> / <kbd>DOWN</kbd> (in Mute mode)</div><div class="text-[#B8B8B8] text-sm">Switch between Global and Pattern Mute modes</div></div>
+                            <div class="shortcut-row"><div><kbd>MUTE</kbd> + <kbd>UP</kbd></div><div class="text-[#B8B8B8] text-sm">Enter <samp>Global Mute</samp> mode</div></div>
+                            <div class="shortcut-row"><div><kbd>MUTE</kbd> + <kbd>DOWN</kbd></div><div class="text-[#B8B8B8] text-sm">Enter <samp>Pattern Mute</samp> mode</div></div>
+                            <div class="shortcut-row"><div><kbd>MUTE</kbd> + <kbd>UP</kbd> / <kbd>DOWN</kbd> (in <samp>Mute</samp> mode)</div><div class="text-[#B8B8B8] text-sm">Switch between <samp>Global</samp> and <samp>Pattern Mute</samp> modes</div></div>
                         </div>
 
                         <!-- Transition Mode -->
                         <div class="shortcut-category" data-category="transition-mode">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Transition Mode</h3>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>PTN</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Transition mode select menu</div></div>
-                            <div class="shortcut-row"><div>Hold <kbd>FUNC</kbd> + press <kbd>PTN</kbd> repeatedly</div><div class="text-[#B8B8B8] text-sm">Cycle through Transition modes</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>PTN</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Transition</samp> mode select menu</div></div>
+                            <div class="shortcut-row"><div>Hold <kbd>FUNC</kbd> + press <kbd>PTN</kbd> repeatedly</div><div class="text-[#B8B8B8] text-sm">Cycle through <samp>Transition</samp> modes</div></div>
                         </div>
 
                     </div>
@@ -383,14 +405,14 @@
                         <!-- Perform Mode -->
                         <div class="shortcut-category" data-category="perform-mode">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Perform Mode</h3>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TRK</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle Perform mode on/off</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TRK</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle <samp>Perform</samp> mode on/off</div></div>
                         </div>
 
                         <!-- Arpeggiator -->
                         <div class="shortcut-category" data-category="arpeggiator">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Arpeggiator</h3>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>ARP</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle the current track's arpeggiator on/off</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>LEFT</kbd> / <kbd>RIGHT</kbd> (in ARP menu)</div><div class="text-[#B8B8B8] text-sm">Rotate the arpeggiator sequence</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>LEFT</kbd> / <kbd>RIGHT</kbd> (in <samp>ARP</samp> menu)</div><div class="text-[#B8B8B8] text-sm">Rotate the arpeggiator sequence</div></div>
                         </div>
 
                         <!-- Transpose -->
@@ -403,12 +425,12 @@
                         <!-- Song Mode -->
                         <div class="shortcut-category" data-category="song-mode">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Song Mode</h3>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SONG</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle Song mode on/off</div></div>
-                            <div class="shortcut-row"><div><kbd>SONG</kbd> + <kbd>TRIG 1-16</kbd></div><div class="text-[#B8B8B8] text-sm">Select a song and enter Song mode</div></div>
-                            <div class="shortcut-row"><div><kbd>SONG</kbd> + <kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Song Edit screen</div></div>
-                            <div class="shortcut-row"><div><kbd>SONG</kbd> + <kbd>LEFT</kbd> (in Song mode)</div><div class="text-[#B8B8B8] text-sm">Loop the currently playing row; press again to stop looping</div></div>
-                            <div class="shortcut-row"><div><kbd>SONG</kbd> + <kbd>UP</kbd> / <kbd>DOWN</kbd> (in Song mode)</div><div class="text-[#B8B8B8] text-sm">Select a specific song row to jump to and play next</div></div>
-                            <div class="shortcut-row"><div><kbd>STOP</kbd> + <kbd>STOP</kbd> (in Song mode)</div><div class="text-[#B8B8B8] text-sm">Move the playhead to the song's beginning</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SONG</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle <samp>Song</samp> mode on/off</div></div>
+                            <div class="shortcut-row"><div><kbd>SONG</kbd> + <kbd>TRIG 1-16</kbd></div><div class="text-[#B8B8B8] text-sm">Select a song and enter <samp>Song</samp> mode</div></div>
+                            <div class="shortcut-row"><div><kbd>SONG</kbd> + <kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Song Edit</samp> screen</div></div>
+                            <div class="shortcut-row"><div><kbd>SONG</kbd> + <kbd>LEFT</kbd> (in <samp>Song</samp> mode)</div><div class="text-[#B8B8B8] text-sm">Loop the currently playing row; press again to stop looping</div></div>
+                            <div class="shortcut-row"><div><kbd>SONG</kbd> + <kbd>UP</kbd> / <kbd>DOWN</kbd> (in <samp>Song</samp> mode)</div><div class="text-[#B8B8B8] text-sm">Select a specific song row to jump to and play next</div></div>
+                            <div class="shortcut-row"><div><kbd>STOP</kbd> + <kbd>STOP</kbd> (in <samp>Song</samp> mode)</div><div class="text-[#B8B8B8] text-sm">Move the playhead to the song's beginning</div></div>
                         </div>
 
                         <!-- Song Edit -->
@@ -456,40 +478,40 @@
                         <!-- Preview -->
                         <div class="shortcut-category" data-category="preview">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Preview</h3>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>YES</kbd> (in Sample browser)</div><div class="text-[#B8B8B8] text-sm">Preview the selected sample</div></div>
-                            <div class="shortcut-row"><div><kbd>TRIG</kbd> + <kbd>YES</kbd> (in Grid Recording)</div><div class="text-[#B8B8B8] text-sm">Preview a specific trig (including its parameter locks)</div></div>
-                            <div class="shortcut-row"><div><kbd>KEYBOARD</kbd> + <kbd>YES</kbd> (in Step Edit)</div><div class="text-[#B8B8B8] text-sm">Preview a specific note (including its parameter locks)</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>YES</kbd> (in <samp>Sample browser</samp>)</div><div class="text-[#B8B8B8] text-sm">Preview the selected sample in the <samp>Sample browser</samp></div></div>
+                            <div class="shortcut-row"><div><kbd>TRIG</kbd> + <kbd>YES</kbd> (in <samp>Grid Recording</samp>)</div><div class="text-[#B8B8B8] text-sm">Preview a specific trig including its parameter locks (in <samp>Grid Recording</samp>)</div></div>
+                            <div class="shortcut-row"><div><kbd>KEYBOARD</kbd> + <kbd>YES</kbd> (in <samp>Step Edit</samp>)</div><div class="text-[#B8B8B8] text-sm">Preview a specific note including its parameter locks (in <samp>Step Edit</samp>)</div></div>
                         </div>
 
                         <!-- Menu Access -->
                         <div class="shortcut-category" data-category="menu-access">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Menu Access</h3>
-                            <div class="shortcut-row"><div><kbd>PRESET</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Load Preset section of the File menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>PRESET</kbd></div><div class="text-[#B8B8B8] text-sm">Open the File menu</div></div>
-                            <div class="shortcut-row"><div><kbd>ARP</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Arpeggiator Setup menu</div></div>
+                            <div class="shortcut-row"><div><kbd>PRESET</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Load Preset</samp> section of the <samp>File</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>PRESET</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>File</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>ARP</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Arpeggiator Setup</samp> menu</div></div>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>ARP</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle the arpeggiator on/off</div></div>
-                            <div class="shortcut-row"><div><kbd>SETTINGS</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Settings menu</div></div>
-                            <div class="shortcut-row"><div><kbd>CHORD</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Chord/Scale Setup menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>CHORD</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle the Chord mode on/off</div></div>
-                            <div class="shortcut-row"><div><kbd>SAMPLING</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Sampling menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SAMPLING</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Sample browser</div></div>
-                            <div class="shortcut-row"><div><kbd>SONG</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Song selection screen</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SONG</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle Song mode on/off</div></div>
-                            <div class="shortcut-row"><div><kbd>TEMPO</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Tempo menu</div></div>
-                            <div class="shortcut-row"><div><kbd>MUTE</kbd></div><div class="text-[#B8B8B8] text-sm">Access the track mute functionality / enter Mute mode</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>MUTE</kbd></div><div class="text-[#B8B8B8] text-sm">Access the Routing menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TRIG PARAMETERS</kbd></div><div class="text-[#B8B8B8] text-sm">Open the trig-related section of the Setup menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SRC</kbd></div><div class="text-[#B8B8B8] text-sm">Open the SRC machine selection section of the Setup menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>FLTR</kbd></div><div class="text-[#B8B8B8] text-sm">Open the filter-related section of the Setup menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>AMP</kbd></div><div class="text-[#B8B8B8] text-sm">Open the amp-related section of the Setup menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>FX</kbd></div><div class="text-[#B8B8B8] text-sm">Open the FX machine selection and FX settings section of the Setup menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>MOD</kbd></div><div class="text-[#B8B8B8] text-sm">Open the mod destination settings section of the Setup menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>PAGE</kbd></div><div class="text-[#B8B8B8] text-sm">Open the pattern/track Page Setup menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>-</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Transform menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>PTN</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Transition mode select menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>FILL</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Fill Edit menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>UP</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Sequence Lane menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>DOWN</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Trig Mode menu</div></div>
+                            <div class="shortcut-row"><div><kbd>SETTINGS</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Settings</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>CHORD</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Chord/Scale Setup</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>CHORD</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle the <samp>Chord</samp> mode on/off</div></div>
+                            <div class="shortcut-row"><div><kbd>SAMPLING</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Sampling</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SAMPLING</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Sample browser</samp></div></div>
+                            <div class="shortcut-row"><div><kbd>SONG</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Song selection</samp> screen</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SONG</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle <samp>Song</samp> mode on/off</div></div>
+                            <div class="shortcut-row"><div><kbd>TEMPO</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Tempo</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>MUTE</kbd></div><div class="text-[#B8B8B8] text-sm">Access the track mute functionality / enter <samp>Mute</samp> mode</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>MUTE</kbd></div><div class="text-[#B8B8B8] text-sm">Access the <samp>Routing</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TRIG PARAMETERS</kbd></div><div class="text-[#B8B8B8] text-sm">Open the trig-related section of the <samp>Setup</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SRC</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>SRC</samp> machine selection section of the <samp>Setup</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>FLTR</kbd></div><div class="text-[#B8B8B8] text-sm">Open the filter-related section of the <samp>Setup</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>AMP</kbd></div><div class="text-[#B8B8B8] text-sm">Open the amp-related section of the <samp>Setup</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>FX</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>FX</samp> machine selection and FX settings section of the <samp>Setup</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>MOD</kbd></div><div class="text-[#B8B8B8] text-sm">Open the mod destination settings section of the <samp>Setup</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>PAGE</kbd></div><div class="text-[#B8B8B8] text-sm">Open the pattern/track <samp>Page Setup</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>-</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Transform</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>PTN</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Transition</samp> mode select menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>FILL</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Fill Edit</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>UP</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Sequence Lane</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>DOWN</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Trig Mode</samp> menu</div></div>
                         </div>
 
                     </div>
@@ -516,21 +538,21 @@
                         <!-- Sample Browser -->
                         <div class="shortcut-category" data-category="sample-browser">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Sample Browser</h3>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SAMPLING</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Sample browser</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SAMPLING</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Sample browser</samp></div></div>
                             <div class="shortcut-row"><div><kbd>YES</kbd> or <kbd>FUNC</kbd> + <kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Enter the highlighted directory</div></div>
                             <div class="shortcut-row"><div><kbd>NO</kbd> or <kbd>FUNC</kbd> + <kbd>LEFT</kbd></div><div class="text-[#B8B8B8] text-sm">Exit a directory / go up one level</div></div>
                             <div class="shortcut-row"><div>Hold <kbd>NO</kbd></div><div class="text-[#B8B8B8] text-sm">Return to the top of the directory structure</div></div>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>NO</kbd></div><div class="text-[#B8B8B8] text-sm">Exit the Sample browser</div></div>
-                            <div class="shortcut-row"><div><kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Access the Operations menu for the highlighted item</div></div>
+                            <div class="shortcut-row"><div><kbd>RIGHT</kbd></div><div class="text-[#B8B8B8] text-sm">Access the <samp>Operations</samp> menu for the highlighted item</div></div>
                         </div>
 
                         <!-- Sampling (Recorder) -->
                         <div class="shortcut-category" data-category="sampling-recorder">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Sampling (Recorder)</h3>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>YES</kbd> (in trim screen)</div><div class="text-[#B8B8B8] text-sm">Preview the sample</div></div>
-                            <div class="shortcut-row"><div><kbd>LEFT</kbd> (in trim screen)</div><div class="text-[#B8B8B8] text-sm">Toggle sample Loop on/off</div></div>
-                            <div class="shortcut-row"><div><kbd>UP</kbd> (in trim screen)</div><div class="text-[#B8B8B8] text-sm">Normalize the sample to 0 dB</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>NO</kbd> (in trim screen)</div><div class="text-[#B8B8B8] text-sm">Discard the sample</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>YES</kbd> (in <samp>Trim</samp> screen)</div><div class="text-[#B8B8B8] text-sm">Preview the sample</div></div>
+                            <div class="shortcut-row"><div><kbd>LEFT</kbd> (in <samp>Trim</samp> screen)</div><div class="text-[#B8B8B8] text-sm">Toggle sample Loop on/off</div></div>
+                            <div class="shortcut-row"><div><kbd>UP</kbd> (in <samp>Trim</samp> screen)</div><div class="text-[#B8B8B8] text-sm">Normalize the sample to 0 dB</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>NO</kbd> (in <samp>Trim</samp> screen)</div><div class="text-[#B8B8B8] text-sm">Discard the sample</div></div>
                         </div>
 
                         <!-- Saving & Reloading -->
@@ -570,9 +592,9 @@
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>ARROW</kbd></div><div class="text-[#B8B8B8] text-sm">Choose a letter (pop-up naming)</div></div>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>NO</kbd></div><div class="text-[#B8B8B8] text-sm">Erase a character</div></div>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>YES</kbd></div><div class="text-[#B8B8B8] text-sm">Insert a blank space</div></div>
-                            <div class="shortcut-row"><div><kbd>SETTINGS</kbd></div><div class="text-[#B8B8B8] text-sm">Generate a random name</div></div>
-                            <div class="shortcut-row"><div>Hold <kbd>FUNC</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Pop-up Naming menu</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TRIG 1</kbd> / <kbd>TRIG 2</kbd></div><div class="text-[#B8B8B8] text-sm">Switch between character layouts (in pop-up naming)</div></div>
+                            <div class="shortcut-row"><div><kbd>SETTINGS</kbd></div><div class="text-[#B8B8B8] text-sm">Generate a random name on the <samp>Naming</samp> screen</div></div>
+                            <div class="shortcut-row"><div>Hold <kbd>FUNC</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Pop-up Naming</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TRIG 1</kbd> / <kbd>TRIG 2</kbd></div><div class="text-[#B8B8B8] text-sm">Switch between character layouts (in <samp>Pop-up Naming</samp>)</div></div>
                         </div>
 
                         <!-- Keyboard Secondary Functions -->
@@ -581,26 +603,26 @@
                             <div class="shortcut-row"><div><kbd>KEYBOARD C#1</kbd></div><div class="text-[#B8B8B8] text-sm">Recall from previously memorized state of the active pattern</div></div>
                             <div class="shortcut-row"><div><kbd>KEYBOARD D#1</kbd></div><div class="text-[#B8B8B8] text-sm">Memorize the state of the active pattern</div></div>
                             <div class="shortcut-row"><div><kbd>KEYBOARD F#1</kbd> (via <kbd>FUNC</kbd>)</div><div class="text-[#B8B8B8] text-sm">Toggle the metronome on/off</div></div>
-                            <div class="shortcut-row"><div><kbd>KEYBOARD G#1</kbd> (via <kbd>FUNC</kbd>)</div><div class="text-[#B8B8B8] text-sm">Open the Quantize menu</div></div>
-                            <div class="shortcut-row"><div><kbd>KEYBOARD A#1</kbd> (via <kbd>FUNC</kbd>)</div><div class="text-[#B8B8B8] text-sm">Open the Scale menu</div></div>
+                            <div class="shortcut-row"><div><kbd>KEYBOARD G#1</kbd> (via <kbd>FUNC</kbd>)</div><div class="text-[#B8B8B8] text-sm">Open the <samp>Quantize</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>KEYBOARD A#1</kbd> (via <kbd>FUNC</kbd>)</div><div class="text-[#B8B8B8] text-sm">Open the <samp>Scale</samp> menu</div></div>
                         </div>
 
                         <!-- Rescue Mode -->
                         <div class="shortcut-category" data-category="rescue-mode">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Rescue Mode</h3>
-                            <div class="shortcut-row"><div>Hold <kbd>FUNC</kbd> while powering on</div><div class="text-[#B8B8B8] text-sm">Enter Rescue Mode menu</div></div>
-                            <div class="shortcut-row"><div><kbd>TRIG 1</kbd> (in Rescue Mode)</div><div class="text-[#B8B8B8] text-sm">Reset active project</div></div>
-                            <div class="shortcut-row"><div><kbd>TRIG 2</kbd> (in Rescue Mode)</div><div class="text-[#B8B8B8] text-sm">Recovery OS upgrade</div></div>
-                            <div class="shortcut-row"><div><kbd>TRIG 3</kbd> (in Rescue Mode)</div><div class="text-[#B8B8B8] text-sm">Save diagnostics</div></div>
-                            <div class="shortcut-row"><div><kbd>TRIG 4</kbd> (in Rescue Mode)</div><div class="text-[#B8B8B8] text-sm">Exit (reboot)</div></div>
+                            <div class="shortcut-row"><div>Hold <kbd>FUNC</kbd> while powering on</div><div class="text-[#B8B8B8] text-sm">Enter <samp>Rescue Mode</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>TRIG 1</kbd> (in <samp>Rescue Mode</samp>)</div><div class="text-[#B8B8B8] text-sm">Reset active project</div></div>
+                            <div class="shortcut-row"><div><kbd>TRIG 2</kbd> (in <samp>Rescue Mode</samp>)</div><div class="text-[#B8B8B8] text-sm">Recovery OS upgrade</div></div>
+                            <div class="shortcut-row"><div><kbd>TRIG 3</kbd> (in <samp>Rescue Mode</samp>)</div><div class="text-[#B8B8B8] text-sm">Save diagnostics</div></div>
+                            <div class="shortcut-row"><div><kbd>TRIG 4</kbd> (in <samp>Rescue Mode</samp>)</div><div class="text-[#B8B8B8] text-sm">Exit (reboot)</div></div>
                         </div>
 
                         <!-- Routing -->
                         <div class="shortcut-category" data-category="routing">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Routing</h3>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>MUTE</kbd></div><div class="text-[#B8B8B8] text-sm">Open the Routing menu</div></div>
-                            <div class="shortcut-row"><div>Hold <kbd>TRIG</kbd> keys + press destination <kbd>TRIG</kbd></div><div class="text-[#B8B8B8] text-sm">Route track(s) to a destination in the Routing menu</div></div>
-                            <div class="shortcut-row"><div><kbd>KEYBOARD A</kbd> / <kbd>KEYBOARD B</kbd> (in Routing)</div><div class="text-[#B8B8B8] text-sm">Select OUT CD and OUT EF destinations respectively</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>MUTE</kbd></div><div class="text-[#B8B8B8] text-sm">Open the <samp>Routing</samp> menu</div></div>
+                            <div class="shortcut-row"><div>Hold <kbd>TRIG</kbd> keys + press destination <kbd>TRIG</kbd></div><div class="text-[#B8B8B8] text-sm">Route track(s) to a destination in the <samp>Routing</samp> menu</div></div>
+                            <div class="shortcut-row"><div><kbd>KEYBOARD A</kbd> / <kbd>KEYBOARD B</kbd> (in <samp>Routing</samp>)</div><div class="text-[#B8B8B8] text-sm">Select OUT CD and OUT EF destinations respectively</div></div>
                         </div>
 
                         <!-- Miscellaneous -->
@@ -613,7 +635,7 @@
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>YES</kbd></div><div class="text-[#B8B8B8] text-sm">Redo action</div></div>
                             <div class="shortcut-row"><div>Hold <kbd>POWER</kbd> then press <kbd>YES</kbd></div><div class="text-[#B8B8B8] text-sm">Turn off the device</div></div>
                             <div class="shortcut-row"><div>Hold <kbd>POWER</kbd> button (unresponsive)</div><div class="text-[#B8B8B8] text-sm">Force power off</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TRIG</kbd> (on Naming pop-up)</div><div class="text-[#B8B8B8] text-sm">Switch character layouts</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>TRIG</kbd> (on <samp>Naming</samp> pop-up)</div><div class="text-[#B8B8B8] text-sm">Switch character layouts (in <samp>Pop-up Naming</samp>)</div></div>
                         </div>
 
                     </div>
@@ -627,7 +649,7 @@
     <footer class="w-full px-6 py-8 border-t border-white/5">
         <div class="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div>
-                <span class="text-sm font-semibold tracking-widest uppercase text-white">Tonverk</span>
+                <span class="text-sm font-semibold tracking-widest uppercase text-white">TONVERK.WORLD</span>
                 <span class="text-sm text-gray-500 ml-3">Shortcuts Reference</span>
             </div>
             <p class="text-xs text-gray-600">OS 1.2.1 &mdash; Extracted from the official Elektron Tonverk User Manual</p>
