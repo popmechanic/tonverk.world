@@ -1,16 +1,19 @@
-<img src="favicon_io/android-chrome-512x512.png" alt="Tonverk logo" width="128" align="left" style="margin-right: 16px; margin-bottom: 8px;">
+<div align="center">
+<img src="favicon_io/android-chrome-512x512.png" alt="Tonverk logo" width="160">
+<h1>TONVERK.WORLD</h1>
+<p>A searchable shortcuts reference for the Elektron Tonverk.</p>
+<a href="https://tonverk.world"><strong>tonverk.world</strong></a>
+</div>
 
-# TONVERK.WORLD
+<br>
 
-A searchable shortcuts reference for the Elektron Tonverk.
+I built this because I kept forgetting key combinations mid-session. The manual is thorough but not exactly something you want to flip through while a sequence is running. This puts every shortcut in one place, organized by section, with search so you can find what you need fast.
 
-I built this because I kept forgetting key combinations mid-session. The manual is thorough but not exactly something you want to flip through while a sequence is running. This puts every shortcut in one place, organized by section, with search so you can find what you need fast. Covers clipboard operations, sequencer controls, track/pattern management, performance features, sound design shortcuts, sampling, and system functions. Based on OS 1.2.1.
-
-<br clear="left">
+Covers clipboard operations, sequencer controls, track/pattern management, performance features, sound design shortcuts, sampling, and system functions. Based on OS 1.2.1.
 
 ## Save it for offline use
 
-The site works as a progressive web app. Visit [tonverk.world](https://tonverk.world) once, and you can add it to your home screen (or install it from your browser). After that it works without an internet connection — useful if your studio setup doesn't have great wifi, or if you're on the go.
+The site works as a progressive web app. Visit [tonverk.world](https://tonverk.world) once, and you can add it to your home screen or install it from your browser. After that it works without an internet connection — useful if your studio setup doesn't have great wifi, or if you're on the go.
 
 - **iOS Safari**: tap Share, then "Add to Home Screen"
 - **Android Chrome**: tap the menu, then "Install app" or "Add to Home Screen"
