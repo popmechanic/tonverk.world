@@ -1,0 +1,9 @@
+name = "tonverk-world"
+compatibility_date = "2025-02-10"
+workers_dev = false
+routes = [
+  { pattern = "tonverk.world", custom_domain = true }
+]
+
+[assets]
+directory = "./"

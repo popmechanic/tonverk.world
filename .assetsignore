@@ -1,0 +1,12 @@
+.git
+.github
+.DS_Store
+.wrangler
+.assetsignore
+.gitignore
+wrangler.toml
+CLAUDE.md
+claude.md
+design.html
+Tonverk_Shortcuts_Reference.md
+node_modules
