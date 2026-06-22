@@ -1,6 +1,6 @@
 # Elektron Tonverk — Complete Shortcuts & Key Combinations Reference
 
-*Extracted from the Tonverk User Manual, OS 1.2.1 (Feb 4, 2025)*
+*Extracted from the Tonverk User Manual, OS 1.3.3 (May 7, 2026)*
 
 ---
 
@@ -46,6 +46,14 @@
 | **[PAGE] + [STOP]** | Paste the copied page to the active page |
 | **[PAGE] + [PLAY]** | Clear the active page |
 
+### Subtracks + Supertrack Sequence (all trigs across the eight subtracks and the supertrack) — in STEP EDIT mode
+
+| Shortcut | Function |
+|----------|----------|
+| **[FUNC] + [RECORD]** | Copy all trigs from the eight subtracks and the supertrack |
+| **[FUNC] + [STOP]** | Paste the copied subtracks' and supertrack's trigs to the active track |
+| **[FUNC] + [PLAY]** | Clear all trigs from the eight subtracks and the supertrack |
+
 ### Parameter Page
 
 | Shortcut | Function |
@@ -85,7 +93,7 @@
 | Shortcut | Function |
 |----------|----------|
 | **[TRK] + [TRIG 1–16]** | Select a track |
-| **[TRK] + [SUBTRACKS]** | Select a subtrack (on a track with Subtracks SRC machine) |
+| **[TRK] + [SUBTRACKS]** or just **[SUBTRACKS]** | Select a subtrack (on a track with Subtracks SRC machine) |
 | **[PTN] + [KEYBOARD] (bottom row) + [TRIG 1–16]** | Select a bank/pattern |
 | **[TRIG 1–16]** (not in recording mode) | Select a track and trigger its preset (audio tracks) |
 
@@ -111,8 +119,8 @@
 | Shortcut | Function |
 |----------|----------|
 | **[FUNC] + [SETTINGS]** | Save the active project |
-| **[FUNC] + [KEYBOARD C#]** | Temporarily memorize (save) the active pattern |
-| **[FUNC] + [KEYBOARD D#]** | Recall (reload) the active pattern from its temporarily saved state |
+| **[FUNC] + [KEYBOARD D#]** | Temporarily memorize (save) the active pattern |
+| **[FUNC] + [KEYBOARD C#]** | Recall (reload) the active pattern from its temporarily saved state |
 
 ---
 
@@ -192,6 +200,7 @@
 | **[MUTE] + [UP]** | Enter GLOBAL MUTE mode |
 | **[MUTE] + [DOWN]** | Enter PATTERN MUTE mode |
 | **[MUTE] + [UP] / [DOWN]** (in MUTE mode) | Switch between GLOBAL and PATTERN MUTE modes |
+| **Hold [FUNC] + [TRIG]** (in MUTE mode) | Prepare tracks to mute/unmute; the change applies when [FUNC] is released |
 
 ---
 
@@ -246,7 +255,9 @@
 | Shortcut | Function |
 |----------|----------|
 | **[+] / [-]** | Transpose the [KEYBOARD] up/down in octaves |
+| **[+] + [-]** | Reset the [KEYBOARD] transpose to 0 |
 | **[FUNC] + [+]** then use **[KEYBOARD]** | Transpose the current track's note trigs up/down to the selected key |
+| **[TRK] + [+] / [-]** | Transpose the current track up/down in semitones |
 
 ---
 
@@ -256,6 +267,10 @@
 |----------|----------|
 | **[FUNC] + [ARP]** | Toggle the current track's arpeggiator on/off |
 | **[FUNC] + [LEFT] / [RIGHT]** (in ARP menu) | Rotate the arpeggiator sequence |
+| **[ARP] + [YES]** | Enable the arpeggiator and randomize all its parameters |
+| **[ARP] + [PLAY]** | Disable the arpeggiator and reset all parameters to default |
+| **Press *DATA ENTRY* E + [YES]** (in ARP menu) | Randomize the arpeggiator offset |
+| **Press *DATA ENTRY* E + [PLAY]** (in ARP menu) | Reset the arpeggiator offset |
 
 ---
 
@@ -378,4 +393,4 @@
 
 ---
 
-*This reference covers all documented key combinations from the official Tonverk User Manual (OS 1.2.1). For complete parameter descriptions and machine-specific details, consult the full manual.*
+*This reference covers all documented key combinations from the official Tonverk User Manual (OS 1.3.3). For complete parameter descriptions and machine-specific details, consult the full manual.*

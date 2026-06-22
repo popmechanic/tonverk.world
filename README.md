@@ -4,7 +4,7 @@ A searchable shortcuts reference for the Elektron Tonverk.
 
 I built this because I kept forgetting key combinations mid-session. The manual is thorough but not exactly something you want to flip through while a sequence is running. This puts every shortcut in one place, organized by section, with search so you can find what you need fast.
 
-Covers clipboard operations, sequencer controls, track/pattern management, performance features, sound design shortcuts, sampling, and system functions. Based on OS 1.2.1.
+Covers clipboard operations, sequencer controls, track/pattern management, performance features, sound design shortcuts, sampling, and system functions. Based on OS 1.3.3.
 
 https://tonverk.world
 

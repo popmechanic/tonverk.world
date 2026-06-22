@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tonverk-v1';
+const CACHE_NAME = 'tonverk-v2';
 
 const PRECACHE_URLS = [
   '/',

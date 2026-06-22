@@ -182,7 +182,10 @@
                 Every shortcut for the Elektron Tonverk, organized and searchable.
             </p>
             <p class="text-sm text-gray-500 font-medium tracking-wide">
-                OS 1.2.1 &mdash; Extracted from the official Tonverk User Manual
+                OS 1.3.3 &mdash; Extracted from the official Tonverk User Manual
+            </p>
+            <p class="text-xs text-gray-600 font-light max-w-xl mt-4 leading-[1.6]">
+                <span class="text-gray-400 font-medium">New in OS 1.3.3:</span> the Wavefinder (wavetable) and Shape SRC machines, an expanded set of FX machines, SFZ sample import, an Auto Sampler, and USB audio &mdash; plus the new key combinations marked throughout this reference.
             </p>
         </div>
 
@@ -245,6 +248,14 @@
                             <div class="shortcut-row"><div><kbd>PAGE</kbd> + <kbd>RECORD</kbd></div><div class="text-[#B8B8B8] text-sm">Copy the active page</div></div>
                             <div class="shortcut-row"><div><kbd>PAGE</kbd> + <kbd>STOP</kbd></div><div class="text-[#B8B8B8] text-sm">Paste the copied page to the active page</div></div>
                             <div class="shortcut-row"><div><kbd>PAGE</kbd> + <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Clear the active page</div></div>
+                        </div>
+
+                        <!-- Copy/Paste/Clear: Subtracks + Supertrack Sequence -->
+                        <div class="shortcut-category" data-category="copy-paste-clear">
+                            <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Subtracks + Supertrack Sequence &mdash; in <samp>Step Edit</samp> mode</h3>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>RECORD</kbd></div><div class="text-[#B8B8B8] text-sm">Copy all trigs from the eight subtracks and the supertrack</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>STOP</kbd></div><div class="text-[#B8B8B8] text-sm">Paste the copied subtracks' and supertrack's trigs to the active track</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Clear all trigs from the eight subtracks and the supertrack</div></div>
                         </div>
 
                         <!-- Copy/Paste/Clear: Parameter Page -->
@@ -365,7 +376,7 @@
                         <div class="shortcut-category" data-category="track-select">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Track / Subtrack / Pattern / Bank Select</h3>
                             <div class="shortcut-row"><div><kbd>TRK</kbd> + <kbd>TRIG 1-16</kbd></div><div class="text-[#B8B8B8] text-sm">Select a track</div></div>
-                            <div class="shortcut-row"><div><kbd>TRK</kbd> + <kbd>SUBTRACKS</kbd></div><div class="text-[#B8B8B8] text-sm">Select a subtrack (on a track with Subtracks SRC machine)</div></div>
+                            <div class="shortcut-row"><div><kbd>TRK</kbd> + <kbd>SUBTRACKS</kbd> or just <kbd>SUBTRACKS</kbd></div><div class="text-[#B8B8B8] text-sm">Select a subtrack (on a track with Subtracks SRC machine)</div></div>
                             <div class="shortcut-row"><div><kbd>PTN</kbd> + <kbd>KEYBOARD</kbd> (bottom row) + <kbd>TRIG 1-16</kbd></div><div class="text-[#B8B8B8] text-sm">Select a bank/pattern</div></div>
                             <div class="shortcut-row"><div><kbd>TRIG 1-16</kbd> (not in recording mode)</div><div class="text-[#B8B8B8] text-sm">Select a track and trigger its preset (audio tracks)</div></div>
                         </div>
@@ -385,6 +396,7 @@
                             <div class="shortcut-row"><div><kbd>MUTE</kbd> + <kbd>UP</kbd></div><div class="text-[#B8B8B8] text-sm">Enter <samp>Global Mute</samp> mode</div></div>
                             <div class="shortcut-row"><div><kbd>MUTE</kbd> + <kbd>DOWN</kbd></div><div class="text-[#B8B8B8] text-sm">Enter <samp>Pattern Mute</samp> mode</div></div>
                             <div class="shortcut-row"><div><kbd>MUTE</kbd> + <kbd>UP</kbd> / <kbd>DOWN</kbd> (in <samp>Mute</samp> mode)</div><div class="text-[#B8B8B8] text-sm">Switch between <samp>Global</samp> and <samp>Pattern Mute</samp> modes</div></div>
+                            <div class="shortcut-row"><div>Hold <kbd>FUNC</kbd> + <kbd>TRIG</kbd> (in <samp>Mute</samp> mode)</div><div class="text-[#B8B8B8] text-sm">Prepare tracks to mute/unmute; the change applies when you release <kbd>FUNC</kbd></div></div>
                         </div>
 
                         <!-- Transition Mode -->
@@ -426,13 +438,19 @@
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Arpeggiator</h3>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>ARP</kbd></div><div class="text-[#B8B8B8] text-sm">Toggle the current track's arpeggiator on/off</div></div>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>LEFT</kbd> / <kbd>RIGHT</kbd> (in <samp>ARP</samp> menu)</div><div class="text-[#B8B8B8] text-sm">Rotate the arpeggiator sequence</div></div>
+                            <div class="shortcut-row"><div><kbd>ARP</kbd> + <kbd>YES</kbd></div><div class="text-[#B8B8B8] text-sm">Enable the arpeggiator and randomize all its parameters</div></div>
+                            <div class="shortcut-row"><div><kbd>ARP</kbd> + <kbd>PLAY</kbd></div><div class="text-[#B8B8B8] text-sm">Disable the arpeggiator and reset all parameters to default</div></div>
+                            <div class="shortcut-row"><div>Press <em>DATA ENTRY</em> E + <kbd>YES</kbd> (in <samp>ARP</samp> menu)</div><div class="text-[#B8B8B8] text-sm">Randomize the arpeggiator offset</div></div>
+                            <div class="shortcut-row"><div>Press <em>DATA ENTRY</em> E + <kbd>PLAY</kbd> (in <samp>ARP</samp> menu)</div><div class="text-[#B8B8B8] text-sm">Reset the arpeggiator offset</div></div>
                         </div>
 
                         <!-- Transpose -->
                         <div class="shortcut-category" data-category="transpose">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Transpose</h3>
                             <div class="shortcut-row"><div><kbd>+</kbd> / <kbd>-</kbd></div><div class="text-[#B8B8B8] text-sm">Transpose the Keyboard up/down in octaves</div></div>
+                            <div class="shortcut-row"><div><kbd>+</kbd> + <kbd>-</kbd></div><div class="text-[#B8B8B8] text-sm">Reset the Keyboard transpose to 0</div></div>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>+</kbd> then use <kbd>KEYBOARD</kbd></div><div class="text-[#B8B8B8] text-sm">Transpose the current track's note trigs up/down to the selected key</div></div>
+                            <div class="shortcut-row"><div><kbd>TRK</kbd> + <kbd>+</kbd> / <kbd>-</kbd></div><div class="text-[#B8B8B8] text-sm">Transpose the current track up/down in semitones</div></div>
                         </div>
 
                         <!-- Song Mode -->
@@ -572,8 +590,8 @@
                         <div class="shortcut-category" data-category="saving-reloading">
                             <h3 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-3">Saving & Reloading</h3>
                             <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>SETTINGS</kbd></div><div class="text-[#B8B8B8] text-sm">Save the active project</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>KEYBOARD C#</kbd></div><div class="text-[#B8B8B8] text-sm">Temporarily memorize (save) the active pattern</div></div>
-                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>KEYBOARD D#</kbd></div><div class="text-[#B8B8B8] text-sm">Recall (reload) the active pattern from its temporarily saved state</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>KEYBOARD D#</kbd></div><div class="text-[#B8B8B8] text-sm">Temporarily memorize (save) the active pattern</div></div>
+                            <div class="shortcut-row"><div><kbd>FUNC</kbd> + <kbd>KEYBOARD C#</kbd></div><div class="text-[#B8B8B8] text-sm">Recall (reload) the active pattern from its temporarily saved state</div></div>
                         </div>
 
                     </div>
@@ -665,7 +683,7 @@
                 <span class="text-sm font-semibold tracking-widest uppercase text-white">TONVERK.WORLD</span>
                 <span class="text-sm text-gray-500 ml-3">Shortcuts Reference</span>
             </div>
-            <p class="text-xs text-gray-600">OS 1.2.1 &mdash; Extracted from the official Elektron Tonverk User Manual</p>
+            <p class="text-xs text-gray-600">OS 1.3.3 &mdash; Extracted from the official Elektron Tonverk User Manual</p>
         </div>
     </footer>
 
@@ -673,7 +691,7 @@
     (function() {
         // --- Nav data for mobile menu ---
         const navSections = [
-            { id: 'clipboard', label: 'Clipboard', subs: ['Track Sequence', 'Trig', 'Pattern', 'Preset', 'Sequencer Page', 'Parameter Page', 'Preset to Another Track', 'Multiple Trigs', 'Undo / Redo'] },
+            { id: 'clipboard', label: 'Clipboard', subs: ['Track Sequence', 'Trig', 'Pattern', 'Preset', 'Sequencer Page', 'Subtracks + Supertrack', 'Parameter Page', 'Preset to Another Track', 'Multiple Trigs', 'Undo / Redo'] },
             { id: 'sequencer', label: 'Sequencer', subs: ['Sequencer Settings', 'Sequencer Recording', 'Playback Control', 'Fill Mode'] },
             { id: 'tracks', label: 'Tracks & Patterns', subs: ['Track / Subtrack / Pattern / Bank Select', 'Pattern Selection', 'Mutes', 'Transition Mode'] },
             { id: 'performance', label: 'Performance', subs: ['Perform Mode', 'Arpeggiator', 'Transpose', 'Song Mode', 'Song Edit Screen'] },
